@@ -27,4 +27,8 @@
 		font-family: "Faster One";
 	}
 
+	p{
+		font-family: "Quantico";
+	}
+
 </style>

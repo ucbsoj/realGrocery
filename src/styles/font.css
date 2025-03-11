@@ -52,3 +52,12 @@
 	font-stretch: normal;
 	font-display: swap;
 }
+
+@font-face {
+	font-family: "Quantico";
+	src: url("assets/fonts/Quantico-Regular.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}

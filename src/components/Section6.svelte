@@ -4,7 +4,7 @@ import Receipt from "$components/interactives/Receipt.svelte"
 </script>
 
 <section>
-	<h2>The Context</h2>
+	<h2>Check out products by store here!</h2>
 
 	<p>We wanted to explore what grocery prices were like, right here in our own East Bay backyard. Right now, everything feels more expensive, and we hope that this project can provide locals with a snapshot of what their prices are doing. </p>
     
@@ -16,6 +16,7 @@ import Receipt from "$components/interactives/Receipt.svelte"
         <Receipt/>
         <Receipt/>
         <Receipt/>
+		
     </div>
   
 
@@ -43,6 +44,8 @@ import Receipt from "$components/interactives/Receipt.svelte"
 		display: flex;
 		flex-direction: row;
 		gap: 10px;
+		overflow-x: scroll;
+		overflow: hidden;
 	}
 
 
