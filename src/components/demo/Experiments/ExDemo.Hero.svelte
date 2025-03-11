@@ -18,12 +18,3 @@
 	src="assets/demo/test.jpg"
 	alt="A lake and some clouds"
 />
-
-<!-- Hero with video -->
-<!-- <Hero
-	hed="This is a placeholder headline"
-	dek="Welcome to this demo"
-	byline="By This Person and That Person"
-	src="assets/demo/test.mp4"
-	alt="Flourescent jellyfish moving around"
-/> -->

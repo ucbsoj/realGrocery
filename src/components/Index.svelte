@@ -1,7 +1,41 @@
 <script>
 	import Demo from "$components/demo/Demo.svelte";
 	import Footer from "$components/Footer.svelte";
+	import Hero from "$components/helpers/Hero.svelte";
+	import Section1 from '$components/Section1.svelte';
+	import Section2 from '$components/Section2.svelte';
+	import Section3 from '$components/Section3.svelte';
+	import Section4 from '$components/Section4.svelte';
+	import Section5 from '$components/Section5.svelte';
+	import Section6 from "$components/Section6.svelte";
 </script>
 
-<Demo />
+<Hero
+	hed="Grocery Madness"
+	dek="A guide for savvy shopping in the East Bay"
+	byline="From Edith Matthias, Marquis Chambers, and Xavey Bzdek"
+	src="assets/images/GMheader.JPG"
+	alt="A lake and some clouds"
+/>
+
+<Section1/>
+
+<Section2/>
+
+<Section3/>
+
+<Section4/>
+
+<Section5/>
+
+<Section6/>
+
 <Footer />
+
+<style>
+	:global(body) {
+		background: #a9682f;
+	}
+
+	
+</style>

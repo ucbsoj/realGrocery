@@ -20,6 +20,9 @@
 			margin set to "0 auto". That way, it's centered on the screen and looks
 			like a nice column.
 		</p>
+		<p>
+			We wanted to explore what grocery prices were like, right here in our own East Bay backyard. Right now, everything feels more expensive, and we hope that this project can provide locals with a snapshot of what their prices are doing.
+		</p>
 
 		<p>
 			Here's a new paragraph. These p tags automatically have some space in

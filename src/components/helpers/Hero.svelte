@@ -17,6 +17,15 @@
 </div>
 
 <style>
+	h1 {
+		color: rgb(0, 0, 0);
+		font-size: 70px;
+		font-weight: bold;
+		font-family: "Faster One",  system-ui;
+		text-transform: uppercase;
+	}
+
+
 	.hero {
 		width: 100vw;
 		height: 100vh;
@@ -35,8 +44,9 @@
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		color: white;
-		background: rgba(0, 0, 0, 0.5);
+		color: rgb(11, 1, 1);
+		background: #FCDD60;
+		opacity: 0.9;
 		padding: 0 1rem;
 		text-align: center;
 	}
