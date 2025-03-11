@@ -44,3 +44,11 @@
 }
 
 /* add new fonts here */
+@font-face {
+	font-family: "Faster One";
+	src: url("assets/fonts/FasterOne-Regular.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}

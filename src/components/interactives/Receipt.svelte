@@ -22,7 +22,7 @@
 
 <style>
 	.receipt {
-		background: lightgray;
+		background: rgb(214, 190, 212);
 		width: 200px;
 		max-height: 400px;
 		overflow: scroll;
