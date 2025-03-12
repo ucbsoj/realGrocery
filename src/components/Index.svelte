@@ -44,7 +44,7 @@
 	}
 	
 	:global(h2) {
-		font-family: "Faster-One";
+		font-family: "Faster One";
 	}
 
 	:global(p) {
