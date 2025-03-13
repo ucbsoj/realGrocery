@@ -18,11 +18,11 @@
 
     <div class="grid">
         {#each [1] as i}
-           <Image src="assets/images/dairy.png" alt="diary icon" caption="Dairy"/>
+           <Image src="assets/images/dairy.png" alt="diary icon" caption="<strong>Dairy</strong>"/>
         {/each}
 
         {#each [2] as i}
-        <Image src="assets/images/1meat.png" alt="meat icon" caption="Meat"/>
+        <Image src="assets/images/1meat.png" alt="meat icon" caption="<strong>Meat</strong>"/>
 
         {/each}
 
@@ -68,7 +68,7 @@
         {/each}
 
         {#each [2] as i}
-        <Image src="assets/images/bread.png" alt="bread icon" caption="Wheat/Grains"/>
+        <Image src="assets/images/bread.png" alt="bread icon" caption="<strong>Wheat/Grains</strong>"/>
 
         {/each}
 

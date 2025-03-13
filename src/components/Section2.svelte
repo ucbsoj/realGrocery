@@ -14,29 +14,54 @@
 
 <section>
 
-    <h2>A quick look at our cheapest stores by product</h2>  
+    <h2>The Deals</h2>  
 
     <div class="grid">
         {#each [1] as i}
-           <Image src="assets/images/traderoak.jpg" alt="A lake and some clouds" caption="Lakeshore Trader Joes, <strong> Oakland </strong> <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, odit cum praesentium consequuntur quaerat quisquam facilis ex, reiciendis quasi quibusdam provident sed assumenda molestias, tenetur exercitationem aut odio at temporibus?</p>"/>
+           <Image src="assets/images/meatbanner.png" alt="A lake and some clouds"/>
         {/each}
 
         {#each [2] as i}
-        <Image src="assets/images/groceryoutlet.JPG" alt="A lake and some clouds" caption="Broadway Grocery Outlet, <strong> Oakland </strong>     <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, odit cum praesentium consequuntur quaerat quisquam facilis ex, reiciendis quasi quibusdam provident sed assumenda molestias, tenetur exercitationem aut odio at temporibus?</p>
-"/>
+        <Image src="assets/images/dairybanner.png" alt="A lake and some clouds"/>
+
         {/each}
 
         {#each [3] as i}
-        <Image src="assets/images/traderoak.jpg" alt="A lake and some clouds" caption="Lakeshore Trader Joes, <strong> Oakland </strong> <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, odit cum praesentium consequuntur quaerat quisquam facilis ex, reiciendis quasi quibusdam provident sed assumenda molestias, tenetur exercitationem aut odio at temporibus?</p>"/>
+        <Image src="assets/images/traderoak.jpg" alt="A lake and some clouds" caption="Lakeshore Trader Joes, <strong> Oakland </strong> <p>This is where we found the cheapest meat prices overall.</p>"/>     {/each}
+
+     {#each [4] as i}
+        <Image src="assets/images/groceryoutlet.JPG" alt="A lake and some clouds" caption="Broadway Grocery Outlet, <strong> Oakland </strong>     <p>This is where we found the cheapest meat prices overall.</p>"/>
+     {/each}
+   
+   
+    </div>
+
+    <div class="blocker">
+
+    </div>
+
+    <div class="grid">
+        {#each [1] as i}
+           <Image src="assets/images/wheatbanner.png" alt="A lake and some clouds" />
+        {/each}
+
+        {#each [2] as i}
+        <Image src="assets/images/fruitbanner.png" alt="A lake and some clouds"/>
+
+        {/each}
+
+        {#each [3] as i}
+        <Image src="assets/images/traderoak.jpg" alt="A lake and some clouds" caption="Lakeshore Trader Joes, <strong> Oakland </strong> <p> This is where we found the cheapest wheat and grain prices overall.</p>"/>
      {/each}
 
      {#each [4] as i}
-     <Image src="assets/images/groceryoutlet.JPG" alt="A lake and some clouds" caption="Broadway Grocery Outlet, <strong> Oakland </strong>     <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, odit cum praesentium consequuntur quaerat quisquam facilis ex, reiciendis quasi quibusdam provident sed assumenda molestias, tenetur exercitationem aut odio at temporibus?</p>
+     <Image src="assets/images/groceryoutlet.JPG" alt="A lake and some clouds" caption="Broadway Grocery Outlet, <strong> Oakland </strong>     <p> This is where we found the cheapest fruit and vegetable prices overall.</p>
 "/>
      {/each}
    
    
     </div>
+
     <div class="passer">
         <p>So how'd we get here?</p>
     </div>
@@ -55,8 +80,8 @@
 		display: grid;
         grid-template-columns: repeat(2, 1fr);
 		gap: 16px;
-        row-gap: 200px;
-        padding-bottom: 30px;
+        row-gap: 10px;
+        padding-bottom: 50px;
 	}
 
 
@@ -78,4 +103,19 @@
         padding-top: 200px;
     }
 
+    .blocker{
+        display: block;
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+
+    h2{
+		font-family: "Faster One";
+	}
+
+	p{
+		font-family: "Quantico";
+	}
+
 </style>
+

@@ -1,6 +1,9 @@
 <script>
 import Receipt from "$components/interactives/Receipt.svelte"
 
+let selectedStore = $state("Whole Foods")
+$inspect(selectedStore)
+
 </script>
 
 <section>
@@ -11,11 +14,18 @@ import Receipt from "$components/interactives/Receipt.svelte"
     <p>In the U.S. Grocery increased 2.1% in the year of 2024. Egg prices are in the news everyday. Consumer are voicing their fears amidst looming agricultural tariffs. Everywhere people are talking about prices.</p>
     <p>So how are your prices doing?</p>
 
+	<select bind:value={selectedStore}>
+		<option>Whole Foods</option>
+		<option>Trader Joes</option>
+		<option>Foodmaxx</option>
+	</select>
+
 
     <div class="horizontal-wrapper">
-        <Receipt/>
-        <Receipt/>
-        <Receipt/>
+        <Receipt name={"Dairy"} description={"List of Dairy Products"} items={["a","b","c"]}/>
+		<Receipt name={"Dairy"} description={"List of Dairy Products"} items={["a","b","c"]}/>
+		<Receipt name={"Dairy"} description={"List of Dairy Products"} items={["a","b","c"]}/>
+
 		
     </div>
   

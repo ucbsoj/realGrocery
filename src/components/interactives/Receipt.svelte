@@ -1,4 +1,5 @@
 <script>
+	let {name,description,items} =$props()
 	let stores = [
 		"99 Ranch",
 		"Berkeley Bowl",
@@ -10,11 +11,11 @@
 </script>
 
 <div class="receipt">
-	<div class="name">Bread</div>
-	<div class="description">Loaf of white bread</div>
+	<div class="name">{name}</div>
+	<div class="description">{description}</div>
 
 	<ul>
-		{#each longStores as s}
+		{#each items as s}
 			<li>{s}</li>
 		{/each}
 	</ul>

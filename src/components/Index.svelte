@@ -9,7 +9,7 @@
 	import Section5 from '$components/Section5.svelte';
 	import Section6 from "$components/Section6.svelte";
 	import Section7 from "$components/Section7.svelte";
-	import Section8 from "$components/Section8.svelte";
+//	import Section8 from "$components/Section8.svelte";
 </script>
 
 <Hero
@@ -34,7 +34,7 @@
 
 <Section7/>
 
-<Section8/>
+
 
 <Footer />
 
@@ -45,6 +45,9 @@
 	
 	:global(h2) {
 		font-family: "Faster One";
+		background-color: #58BA8C;
+		border-radius: 5px;
+		padding: 10px;
 	}
 
 	:global(p) {
