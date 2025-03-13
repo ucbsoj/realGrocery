@@ -16,13 +16,17 @@ $inspect(selectedStore)
 
 	<select bind:value={selectedStore}>
 		<option>Whole Foods</option>
-		<option>Trader Joes</option>
+		<option>Trader Joes Berkeley</option>
 		<option>Foodmaxx</option>
+		<option>Trader Joes Oakland</option>
+		<option>Grocery Outlet</option>
+		<option>Berkeley Bowl</option>
 	</select>
 
 
     <div class="horizontal-wrapper">
         <Receipt name={"Dairy"} description={"List of Dairy Products"} items={["a","b","c"]}/>
+		<Receipt name={"Dairy"} description={"List of Dairy Products"} items={["a","b","c"]}/>
 		<Receipt name={"Dairy"} description={"List of Dairy Products"} items={["a","b","c"]}/>
 		<Receipt name={"Dairy"} description={"List of Dairy Products"} items={["a","b","c"]}/>
 

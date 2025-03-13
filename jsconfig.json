@@ -14,7 +14,7 @@
 	"include": [
 		"src/**/*.js",
 		"src/**/*.svelte"
-	],
+, "src/components/interactives/data/TraderOakD.json"	],
 	"exclude": [
 		"tasks/*.js"
 	],
