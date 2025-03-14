@@ -28,11 +28,12 @@
 	}
 
     .graphic {
-        background-color: rgb(255, 211, 213);
+        background-color: #fedcdc;
         margin-left: 5px;
         margin-right: 5px;
         padding: 2%;
         border-radius: 8px;
+     
     }
 
     h2, p{

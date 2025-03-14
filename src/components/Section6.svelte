@@ -1,5 +1,6 @@
 <script>
 import Receipt from "$components/interactives/Receipt.svelte"
+import Image from "$components/helpers/Image.svelte";
 
 let selectedStore = $state("Whole Foods")
 $inspect(selectedStore)
@@ -11,6 +12,11 @@ $inspect(selectedStore)
 
 	<p>We wanted to explore what grocery prices were like, right here in our own East Bay backyard. Right now, everything feels more expensive, and we hope that this project can provide locals with a snapshot of what their prices are doing. </p>
     
+	<Image
+	src="assets/images/storefront.png"
+	alt="A lake and some clouds"
+	
+/>
     <p>In the U.S. Grocery increased 2.1% in the year of 2024. Egg prices are in the news everyday. Consumer are voicing their fears amidst looming agricultural tariffs. Everywhere people are talking about prices.</p>
     <p>So how are your prices doing?</p>
 
@@ -61,6 +67,8 @@ $inspect(selectedStore)
 		overflow-x: scroll;
 		overflow: hidden;
 	}
+
+	
 
 
 </style>

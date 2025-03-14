@@ -9,7 +9,7 @@
 	import Section5 from '$components/Section5.svelte';
 	import Section6 from "$components/Section6.svelte";
 	import Section7 from "$components/Section7.svelte";
-//	import Section8 from "$components/Section8.svelte";
+	import Section8 from "$components/Section8.svelte";
 </script>
 
 <Hero
@@ -33,6 +33,8 @@
 <Section6/>
 
 <Section7/>
+
+<Section8/>
 
 
 

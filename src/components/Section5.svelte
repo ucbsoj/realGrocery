@@ -151,7 +151,7 @@
 	.foodItems{
 		display: block;
 		padding-left: 40px;
-		background-image: src="test.notepad.png";
+		background-image: url("$assets/images/paper.png");
 	}
 
 </style>
