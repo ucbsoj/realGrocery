@@ -5,6 +5,8 @@ import Image from "$components/helpers/Image.svelte";
 let selectedStore = $state("Whole Foods")
 $inspect(selectedStore)
 
+
+
 </script>
 
 <section>
@@ -32,9 +34,9 @@ $inspect(selectedStore)
 
     <div class="horizontal-wrapper">
         <Receipt name={"Dairy"} description={"List of Dairy Products"} items={["a","b","c"]}/>
-		<Receipt name={"Dairy"} description={"List of Dairy Products"} items={["a","b","c"]}/>
-		<Receipt name={"Dairy"} description={"List of Dairy Products"} items={["a","b","c"]}/>
-		<Receipt name={"Dairy"} description={"List of Dairy Products"} items={["a","b","c"]}/>
+		<Receipt name={"Meat"} description={"List of Dairy Products"} items={["a","b","c"]}/>
+		<Receipt name={"Produce"} description={"List of Dairy Products"} items={["a","b","c"]}/>
+		<Receipt name={"Wheat & Grains"} description={"List of Dairy Products"} items={["a","b","c"]}/>
 
 		
     </div>
@@ -66,6 +68,18 @@ $inspect(selectedStore)
 		gap: 10px;
 		overflow-x: scroll;
 		overflow: hidden;
+	}
+
+	select {
+		margin: 10px;
+		display: block;
+		align-items: center;
+		align-self: start;
+		background-color: #58BA8C;
+		border: #FFEAEA;
+		border-width: 2px;
+		text-shadow: 5px;
+		font-family: "Quantico";
 	}
 
 	

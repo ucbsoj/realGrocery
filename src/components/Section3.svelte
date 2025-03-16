@@ -9,7 +9,7 @@
 
 
 	section {
-		background: #FFEAEA;
+		background: rgb(214, 190, 212);
 		max-width: 600px;
 		margin: 20px auto;
 		padding: 10px;

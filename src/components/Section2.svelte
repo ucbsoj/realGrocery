@@ -27,10 +27,10 @@
         {/each}
 
         {#each [3] as i}
-        <Image src="assets/images/traderoak.jpg" alt="A lake and some clouds" caption="Lakeshore Trader Joes, <strong> Oakland </strong> <p>This is where we found the cheapest meat prices overall.</p>"/>     {/each}
+        <Image src="assets/images/groceryoutlet.JPG" alt="A lake and some clouds" caption="Lakeshore Trader Joes, <strong> Oakland </strong> "/>     {/each}
 
      {#each [4] as i}
-        <Image src="assets/images/groceryoutlet.JPG" alt="A lake and some clouds" caption="Broadway Grocery Outlet, <strong> Oakland </strong>     <p>This is where we found the cheapest meat prices overall.</p>"/>
+        <Image src="assets/images/foodmaxx.jpeg" alt="A lake and some clouds" caption="University Trader Joes, <strong> Berkeley </strong> "/>
      {/each}
    
    
@@ -51,20 +51,24 @@
         {/each}
 
         {#each [3] as i}
-        <Image src="assets/images/traderoak.jpg" alt="A lake and some clouds" caption="Lakeshore Trader Joes, <strong> Oakland </strong> <p> This is where we found the cheapest wheat and grain prices overall.</p>"/>
+        <Image src="assets/images/traderoak.jpg" alt="A lake and some clouds" caption="Lakeshore Trader Joes (Again), <strong> Oakland </strong>"/>
      {/each}
 
      {#each [4] as i}
-     <Image src="assets/images/groceryoutlet.JPG" alt="A lake and some clouds" caption="Broadway Grocery Outlet, <strong> Oakland </strong>     <p> This is where we found the cheapest fruit and vegetable prices overall.</p>
-"/>
+     <Image src="assets/images/groceryoutlet.JPG" alt="A lake and some clouds" caption="Broadway Grocery Outlet, <strong> Oakland </strong>"
+/>
      {/each}
    
    
     </div>
 
-    <div class="passer">
+   <!-- For Passer if wanted 
+    
+   <div class="passer">
         <p>So how'd we get here?</p>
     </div>
+-->
+ 
     
   
 </section>
@@ -80,7 +84,7 @@
 		display: grid;
         grid-template-columns: repeat(2, 1fr);
 		gap: 16px;
-        row-gap: 10px;
+        padding: -30px;
         padding-bottom: 50px;
 	}
 
@@ -100,7 +104,7 @@
 
     .passer{
         display: block;
-        padding-top: 200px;
+        padding-top: 20px;
     }
 
     .blocker{

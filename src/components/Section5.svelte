@@ -14,7 +14,7 @@
 
 <section>
 
-    <h2>So how did everyone do product by product? </h2>  
+    <h2>The Product Rankings </h2>  
 
     <div class="grid">
         {#each [1] as i}
@@ -31,12 +31,12 @@
 		<div class="foodItems">
 			<ol>
 		
-				<li>Trader Joes Berkeley</li>
-				<li>Grocery Outlet Oakland</li>
-				<li>Trader Joes Oakland</li>
-				<li>Foodmaxx Oakland</li>
-				<li>Whole Foods Oakland</li>
-				<li>Berkeley Bowl Berkeley</li>
+				<li>Trader Joes Berkeley: <strong>$22.35</strong></li>
+				<li>Grocery Outlet: <strong>$22.75</strong></li>
+				<li>Trader Joes Oakland: <strong>$22.85</strong></li>
+				<li>Foodmaxx: <strong>$23.25</strong></li>
+				<li>Whole Foods: <strong>$24.95</strong></li>
+				<li>Berkeley Bowl: <strong>$26.75</strong></li>
 
 			</ol>
 
@@ -48,12 +48,12 @@
 	 <div class="foodItems">
 		 <ol>
 	 
-			 <li>Grocery Outlet Oakland</li>
-			 <li>Foodmaxx Oakland</li>
-			 <li>Trader Joes Oakland</li>
-			 <li>Trader Joes Berkeley</li>
-			 <li>Whole Foods Oakland</li>
-			 <li>Berkeley Bowl Berkeley</li>
+			 <li>Grocery Outlet: <strong>$22.15</strong> </li>
+			 <li>Foodmaxx: <strong>$25.75</strong> </li>
+			 <li>Trader Joes Oakland: <strong>$30.95</strong></li>
+			 <li>Trader Joes Berkeley: <strong>$30.95</strong></li>
+			 <li>Whole Foods: <strong>$32.95</strong> </li>
+			 <li>Berkeley Bowl: <strong>$37.45</strong></li>
 
 		 </ol>
 
@@ -76,12 +76,12 @@
        
 		<div class="foodItems">
 			<ol>
-				<li>Grocery Outlet Oakland</li>
-				<li>Foodmaxx Oakland</li>
-				<li>Berkeley Bowl Berkeley</li>
-				<li>Trader Joes Oakland</li>
-				<li>Trader Joes Berkeley</li>
-				<li>Whole Foods Oakland</li>
+				<li>Grocery Outlet: <strong>$9.33</strong> </li>
+				<li>Foodmaxx: <strong>$9.38</strong></li>
+				<li>Berkeley Bowl: <strong>$10.13</strong></li>
+				<li>Trader Joes Oakland: <strong>$10.51</strong></li>
+				<li>Trader Joes Berkeley: <strong>$11.90</strong></li>
+				<li>Whole Foods: <strong>$16.33</strong> </li>
 				
 
 			</ol>
@@ -94,12 +94,12 @@
 	 <div class="foodItems">
 		 <ol>
 	 
-			 <li>Trader Joes Oakland</li>
-			 <li>Trader Joes Berkeley</li>
-			 <li>Foodmaxx Oakland</li>
-			 <li>Grocery Outlet Oakland</li>
-			 <li>Whole Foods Oakland</li>
-			 <li>Berkeley Bowl Berkeley</li>
+			 <li>Trader Joes Oakland: <strong>$6.56</strong></li>
+			 <li>Trader Joes Berkeley: <strong>$8.06</strong></li>
+			 <li>Foodmaxx: <strong>$9.22</strong> </li>
+			 <li>Grocery Outlet: <strong>$9.41</strong> </li>
+			 <li>Whole Foods: <strong>$11.36</strong> </li>
+			 <li>Berkeley Bowl: <strong>$15.56</strong> </li>
 
 		 </ol>
 
@@ -107,9 +107,11 @@
      {/each}
     </div>
 	
-    <div class="passer">
+   <!-- <div class="passer">
         <p>So how'd we get here?</p>
     </div>
+
+	-->
     
   
 </section>
@@ -150,8 +152,9 @@
 
 	.foodItems{
 		display: block;
-		padding-left: 40px;
+		padding-left: 30px;
 		background-image: url("$assets/images/paper.png");
+		font-family: "Quantico";
 	}
 
 </style>
