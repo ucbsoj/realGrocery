@@ -13,6 +13,8 @@
 	import Section9 from "$components/Section9.svelte";
 	import Section10 from "$components/Section10.svelte";
 	import Section11 from "$components/Section11.svelte";
+	import Section12 from "$components/Section12.svelte";
+
 
 
     
@@ -47,6 +49,8 @@
 <Section10/>
 
 <Section11/>
+
+<Section12/>
 
 
 
