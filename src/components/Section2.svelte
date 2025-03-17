@@ -30,7 +30,7 @@
         <Image src="assets/images/groceryoutlet.JPG" alt="A lake and some clouds" caption="Lakeshore Trader Joes, <strong> Oakland </strong> "/>     {/each}
 
      {#each [4] as i}
-        <Image src="assets/images/foodmaxx.jpeg" alt="A lake and some clouds" caption="University Trader Joes, <strong> Berkeley </strong> "/>
+        <Image src="assets/images/tjberk.jpg" alt="A lake and some clouds" caption="University Trader Joes, <strong> Berkeley </strong> "/>
      {/each}
    
    

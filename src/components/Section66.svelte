@@ -1,6 +1,7 @@
 <section>
-	<h3>So, how did we land on these stores and categories for this project?</h3>	
+	<h3>We looked at 3 Berkeley Grocery Stores and 3 Oakland Stores and compiled the prices of common food items in four major categories: </h3>
 	
+	<h3>Meat, Dairy, Wheat & Grains, Fruits & Vegetables </h3>
 
 </section>
 

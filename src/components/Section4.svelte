@@ -18,7 +18,9 @@
 	</div>
 	
     
-    
+    <p>Our goal was to select stores that were spread out geographically, in hopes of representing as many different neighborhoods as we could with such a limited amount of stores.</p>
+
+	<p>We also selected one Trader Joes in Berkeley and one in Oakland to try and see if there was any stark differrence between two grocery stores of the same parent company.</p>
 
 	
 

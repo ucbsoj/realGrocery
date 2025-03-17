@@ -14,7 +14,8 @@
 
 <section>
 
-    <h2>The Product Rankings </h2>  
+    <h2>The Product Rankings </h2> 
+	
 
     <div class="grid">
         {#each [1] as i}
@@ -114,6 +115,7 @@
 	-->
     
   
+	<p>Each store was ranked by comparing the total price of a popular food product basket in all four major food categories we analyzed:</p>
 </section>
 
 <style>

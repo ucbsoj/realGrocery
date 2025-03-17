@@ -10,7 +10,12 @@
 	import Section6 from "$components/Section6.svelte";
 	import Section7 from "$components/Section7.svelte";
 	import Section8 from "$components/Section8.svelte";
-	import Section99 from "./Section99.svelte";
+	import Section9 from "$components/Section9.svelte";
+	import Section10 from "$components/Section10.svelte";
+	import Section11 from "$components/Section11.svelte";
+
+
+    
 </script>
 
 <Hero
@@ -37,7 +42,13 @@
 
 <Section8/>
 
-<Section99/>
+<Section9/>
+
+<Section10/>
+
+<Section11/>
+
+
 
 
 
