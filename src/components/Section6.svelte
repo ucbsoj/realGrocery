@@ -2,8 +2,9 @@
 import Receipt from "$components/interactives/Receipt.svelte"
 import Image from "$components/helpers/Image.svelte";
 
-let selectedStore = $state("Whole Foods")
-$inspect(selectedStore)
+let selectStore = $state("Whole Foods")
+$inspect(selectStore)
+
 
 
 
@@ -22,13 +23,13 @@ $inspect(selectedStore)
     <p>In the U.S. Grocery increased 2.1% in the year of 2024. Egg prices are in the news everyday. Consumer are voicing their fears amidst looming agricultural tariffs. Everywhere people are talking about prices.</p>
     <p>So how are your prices doing?</p>
 
-	<select bind:value={selectedStore}>
-		<option>Whole Foods</option>
-		<option>Trader Joes Berkeley</option>
-		<option>Foodmaxx</option>
-		<option>Trader Joes Oakland</option>
-		<option>Grocery Outlet</option>
-		<option>Berkeley Bowl</option>
+	<select bind:value={selectStore}>
+		<option value="wholeFoods">Whole Foods</option>
+		<option value="tjBerk">Trader Joes Berkeley</option>
+		<option value="foodMaxx">Foodmaxx</option>
+		<option value="tjOak">Trader Joes Oakland</option>
+		<option value="gOutlet">Grocery Outlet</option>
+		<option value="berkBowl">Berkeley Bowl</option>
 	</select>
 
 
